@@ -37,7 +37,8 @@ _NOTE_: spring will add the following dependency in `pom.xml` which is not neede
 - src/main/java/com/example/StudentRepository.java
 - src/main/java/com/example/Student.java
 
-_NOTE_: the source code inserts a row into the `students` table with values for "full_name", "last_name", and "email"
+_NOTE_: the source code inserts a row into the `students` table with values for `full_name`, `last_name`, and `email`
+_NOTE_: that Spring 3 JPA package is Jakarta (jakarta.persistence) and Spring 2 JPA uses JavaX (javax.persistence)
 
 5. Configure the database connection according to steps 2 & 4 of [this tutorial][1]
 

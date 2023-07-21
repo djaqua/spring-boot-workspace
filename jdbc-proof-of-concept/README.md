@@ -35,7 +35,7 @@ _NOTE_: spring will add the following dependency in `pom.xml` which is not neede
 
 - src/main/java/com/example/SpringJdbcTemplate2PostgreSqlApplication.java
 
-_NOTE_: the source code inserts a row into the `students` table with values for "full_name", "last_name", and "email"
+_NOTE_: the source code inserts a row into the `students` table with values for `full_name`, `last_name`, and `email`
 
 5. Configure the database connection according to step 2 of [this tutorial][1]
 
