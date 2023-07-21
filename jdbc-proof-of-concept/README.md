@@ -31,17 +31,17 @@ _NOTE_: spring will add the following dependency in `pom.xml` which is not neede
 - src/main/java/com/example/demo/DemoApplication.java
 - src/test/java/com/example/demo/DemoApplicationTests.java
 
-4. Configure the database connection in
-
-- src/main/resources/application.properties
-
-_NOTE_: the database configuration currently expects to connect to the `spring-boot-workspace` database with password authenticated user 'postgres'
-
-5. Add source code from step 3 of [d](https://www.codejava.net/frameworks/spring-boot/connect-to-postgresql-database-examples)
+4. Add source code from step 3 of [this tutorial][1]
 
 - src/main/java/com/example/SpringJdbcTemplate2PostgreSqlApplication.java
 
 _NOTE_: the source code inserts a row into the `students` table with values for "full_name", "last_name", and "email"
+
+5. Configure the database connection according to step 2 of [this tutorial][1]
+
+- src/main/resources/application.properties
+
+_NOTE_: the database configuration currently expects to connect to the `spring-boot-workspace` database with password authenticated user 'postgres'
 
 6. Compile, package, and run the application
 
@@ -61,3 +61,5 @@ so if pom.xml is configured
 will produce the artifact `target/something-besides-jdbc-proof-of-concept-0.0.1-SNAPSHOT.jar`. And, if nothing was specified after `--extract` from step 2 (see the NOTE), then the artifact will be `target/demo-0.0.1-SNAPSHOT.jar`
 
 7. Observe that the students table in the spring-boot-workspace database has a new row with the values determined by the application source code
+
+[1]: https://www.codejava.net/frameworks/spring-boot/connect-to-postgresql-database-examples
