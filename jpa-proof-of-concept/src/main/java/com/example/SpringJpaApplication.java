@@ -5,9 +5,6 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.example.Student;
-import com.example.StudentRepository;
-
 @SpringBootApplication
 public class SpringJpaApplication implements CommandLineRunner {
 
