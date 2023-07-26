@@ -6,13 +6,13 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringJpaApplication implements CommandLineRunner {
+public class ProofOfConceptApplication implements CommandLineRunner {
 
   @Autowired
   StudentRepository studentRepo;
 
   public static void main(String[] args) {
-    SpringApplication.run(SpringJpaApplication.class, args);
+    SpringApplication.run(ProofOfConceptApplication.class, args);
   }
 
   @Override
@@ -23,5 +23,4 @@ public class SpringJpaApplication implements CommandLineRunner {
     s.setEmail("skipper.thompson@example.com");
     studentRepo.save(s);
   }
-
 }

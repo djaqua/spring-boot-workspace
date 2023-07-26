@@ -20,12 +20,19 @@
 
 - static response ("Hello, world!") from /message endpoint
 - dynamic response from /echo endpoint
-- Spring Boot dependencies: web & security
+- Spring Boot dependencies: web
 
 2. REST & JPA - rest-jpa-proof-of-concept
 
 - CRUD operations on the students table
+- Secured via API Key
 - Spring Boot dependencies: web, security, jpa, & postgresql
+
+3. REST & JPA w/ Projections - projections-proof-of-concept
+
+- CRUD operations
+- Secured via API Key
+- Spring Boot dependencies: web,security,jpa,postgresql
 
 ### User Interfaces
 
@@ -52,11 +59,15 @@
 
 ### Data
 
-1. GraphQL - graphql-proof-of-concept
+1. H2 - h2-proof-of-concept
+
+- same as jpa-proof-of-concept except with H2 instead of Postgres
+
+2. GraphQL - graphql-proof-of-concept
 
 - GraphQL facade over microservices
 
-2. Hazelcast
+3. Hazelcast
 
 ### Deployment
 

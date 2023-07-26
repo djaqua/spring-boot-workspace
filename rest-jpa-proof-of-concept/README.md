@@ -83,6 +83,11 @@ _NOTE:_ the version of HttpSecurity in the Baeldung tutorial is outdated, so the
 
 - src/main/resources/application.properties
 
+7. Configure application via "src/main/resources/application.properties"
+
+- database configuration (e.g. sections 2 & 4 of [Spring Boot Connect to PostgreSQL Database Examples][1])
+- server.port=8000
+
 7. Compile, package, and run the application
 
 ```bash

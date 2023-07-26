@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RestProofOfConceptApplication {
+public class ProofOfConceptApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(RestProofOfConceptApplication.class, args);
+    SpringApplication.run(ProofOfConceptApplication.class, args);
   }
 
 }
